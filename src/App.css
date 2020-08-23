@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custmom CSS */
+
+span.right {
+  float: right;
+}
+p.card-text {
+  font-size: 14px;
+}
+.list-group-item span {
+  font-size: 14px;
+  color: #eee;
+}
+input.SearchInput {
+  width: 100%;
+  padding: 5px;
+  margin: 25px 0;
+}
+.filterBox{
+  width: 100%;
+  padding: 5px;
+  margin: 25px 0;
+}
+div#root {
+  background-color: #20232a;
+  
+}
+.cardItem{
+  width: 320px;
+  margin: 20px 0;
+  border: none !important;
+}
+
+.card-body{
+  background-color: black;
+    margin-top: -98px;
+    z-index: 100;
+    position: relative;
+    opacity: 0.6;
+    color: white;
+}
+
+.list-group-item {
+  background-color: #42464a !important;
+}
+.list-group-item span.right {
+  color: #a8a84c !important;
+}
+
